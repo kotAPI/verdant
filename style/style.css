@@ -70,11 +70,17 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color:black;
+	background:center center fixed;
   	background-size: cover;
   	height:100%;
   	width:100%;
   	overflow: hidden;
+}
+#bgvid{
+	position:absolute;
+	background-size: cover;
+	background:white center center fixed;
+	width:100%;
 }
 #arrow-container{
 	position:relative;
